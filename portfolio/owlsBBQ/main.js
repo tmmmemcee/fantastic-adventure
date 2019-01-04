@@ -1,3 +1,4 @@
+/*  */
 function clearErrors() {
   for (var loopCounter = 0;
     loopCounter < document.forms["contactUs"].elements.length;
@@ -8,7 +9,7 @@ function clearErrors() {
     }
   }
 }
-
+/* ensures that required inputs are not empty*/
 function validateForm() {
   clearErrors();
   var name = document.forms["contactUs"]["name"].value;

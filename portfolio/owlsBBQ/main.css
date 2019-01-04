@@ -1,17 +1,22 @@
-
+/*styling for body */
 body {
     background-color: gainsboro;
 }
+
 h1 {
   font-family: sans-serif, cursive;
 }
+
 h3 { font-weight: bold;}
+
 h2,h3 {
   font-family: cursive,sans-serif;
 }
+
 .jumbotron {
   background-color: #b3ccff;
 }
+
 .content {
   background-color: #b3ccff;
 }
