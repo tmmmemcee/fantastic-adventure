@@ -1,0 +1,52 @@
+
+body {
+    background-color: gainsboro;
+}
+h1 {
+  font-family: sans-serif, cursive;
+}
+h3 { font-weight: bold;}
+h2,h3 {
+  font-family: cursive,sans-serif;
+}
+.jumbotron {
+  background-color: #b3ccff;
+}
+.content {
+  background-color: #b3ccff;
+}
+
+.error {
+  color: #f60000;
+}
+/* nav styling */
+
+nav a {
+    background-color: #546a7b;
+    color: #fef9ff;
+    padding: 4px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    display: block;
+    margin: 20px 20px;
+    width: 100px;
+
+}
+
+nav a:hover {
+    background-color: #fef9ff;
+    color: #5b7d87;
+}
+
+nav a:active {
+    font-weight: bold;
+}
+nav a:visited {
+    color: #20345d;
+}
+
+
+p, h1, h2, h3 {
+  text-align: center;
+  margin:auto;
+}
