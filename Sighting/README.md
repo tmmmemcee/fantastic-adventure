@@ -9,6 +9,8 @@ Uses Google Maps API to show map of Superhero Sighting
 
 Allows Users to upload photos of the SuperHero/Villian
 
+![SuperHeroSighting home page](https://raw.githubusercontent.com/tmmmemcee/fantastic-adventure/master/Sighting/SuperHero.png)
+
 
 ## Details
 A User must add the superhero or villian to the system if they have not already been entered into the system.
