@@ -11,7 +11,7 @@
     </head>
     <body>
         <div class="container">
-            <h1>Spring MVC Application from Archetype</h1>
+            <h1>TMac Football Stats</h1>
             <hr/>
             <div class="navbar">
                 <ul class="nav nav-tabs">
@@ -24,7 +24,7 @@
             <h2>Encyclopedia of Players</h2>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-offset-3 col-md-6">
                 <h2>Fantasy ranker</h2>
                 <table id="playerIndexTable" class="table table-hover">
                     <tr>
@@ -43,7 +43,6 @@
                     </c:forEach>
                 </table>                    
             </div> 
-            
         </div> <!-- End row div -->
         
                 
