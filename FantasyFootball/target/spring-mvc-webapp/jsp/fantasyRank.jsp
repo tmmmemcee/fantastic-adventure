@@ -25,7 +25,13 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h2>Fantasy ranker</h2>
+                <c:forEach var="currentScore" items="${scoring}">
+                    <h2>
+                        <a href="${pageContext.request.contextPath}/${currentScore.scoreId}">
+                            <c:out value="${currentScore.scoreId}"></c:out>
+                        </a>
+                    </h2>
+                </c:forEach>
                 <table id="powerTable" class="table table-hover">
                     <tr>
                         <th width="30%">Name</th>
